@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HelpLine">
+
+    <!-- Header Title -->
+    <TextView
+        android:id="@+id/headtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helpline"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Bank Related Issues Section -->
+    <TextView
+        android:id="@+id/bankIssuesTitle"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_height="wrap_content"
+        android:text="For Bank Related Issues"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Bank 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/bankName1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsregular"
+            android:text="State Bank Of India :"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/callButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call" />
+    </LinearLayout>
+
+    <!-- Bank 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/bankName2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Bank Of Barodra :"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/callButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call" />
+    </LinearLayout>
+
+    <!-- Bank 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:id="@+id/bankName3"
+            android:layout_width="0dp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bank Of India :"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/callButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call" />
+    </LinearLayout>
+
+    <!-- Payment App Related Issues Section -->
+    <TextView
+        android:id="@+id/paymentAppIssuesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Payment App Related Issues"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Payment App 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/paymentAppName1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Google Pay :"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/callButtonApp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call" />
+    </LinearLayout>
+
+    <!-- Payment App 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/paymentAppName2"
+            android:layout_width="0dp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Phone Pe :"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/callButtonApp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call" />
+    </LinearLayout>
+
+    <!-- Payment App Related Issues Section -->
+    <TextView
+        android:id="@+id/specialhelpline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Special HelpLine"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Payment App 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/talkto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Talk to our executeive :"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/callExec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call" />
+    </LinearLayout>
+</LinearLayout>
