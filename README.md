@@ -1,4 +1,4 @@
-# SMS Reader Android App
+# Fin Track - Advanced Finance Tracking APP
 
 ## Overview
 This Android application reads SMS messages, processes them, and ensures that each message is processed only once using Firebase. The app also includes a refresh button to check for new messages after opening the app.
